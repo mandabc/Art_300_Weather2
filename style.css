@@ -7,8 +7,8 @@
 }
 
 #map {
-	width: 600px;
-    height: 600px;
+	width: 100%;
+    height: 100%;
 }
 
 .container1:nth-child(odd){
@@ -91,18 +91,17 @@ h1 {
     font-size: 20px;
 
 }
-#zip_display {
-    font-family: roboto, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin-top: -294px;
-    margin-left: 1190px;
+#zip {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
+
 .location {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: bold;
-    margin-top: 305px;
+    margin-top: 45px;
     margin-left: 3px;
     font-size: 35px;
 
@@ -142,7 +141,7 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: -94px;
+    margin-top: -118px;
     margin-left: 150px;
     font-size: 12px;
 }
@@ -219,6 +218,9 @@ h1 {
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
+.thunderstorm {
+    background: linear-gradient( 0.35turn,  #356F84, #356F84, #2C2C24);
+}
 
 #day1 {
     width: 140px;
@@ -240,7 +242,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     margin-top: -20px;
-    margin-left: 35px;
+    margin-left: 22px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -289,7 +291,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     margin-top: -14px;
-    margin-left: 38px;
+    margin-left: 22px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -337,7 +339,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     margin-top: -14px;
-    margin-left: 38px;
+    margin-left: 32px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -615,7 +617,7 @@ h1 {
     font-weight: 600;
     font-style: normal;
     margin-top: -42px;
-    margin-left: 1055px;
+    margin-left: 1005px;
     font-size: 20px;
 
 }
@@ -624,7 +626,7 @@ h1 {
     font-weight: 500;
     font-style: normal;
     margin-top: -46px;
-    margin-left: 1145px;
+    margin-left: 1095px;
     font-size: 20px;
 
 }
@@ -633,7 +635,7 @@ h1 {
     width: 20px;
     background-color: #E36E24;
     border-radius: 50%;
-    margin-left: 1030px;
+    margin-left: 978px;
     margin-top: -65px;
     float: left;
 }
@@ -831,7 +833,7 @@ h1 {
 }
 
 #meta {
-    margin-top: 1px;
+    margin-top: 495px;
 }
 .locationname {
     font-family: roboto, sans-serif;
