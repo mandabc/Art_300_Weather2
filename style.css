@@ -7,14 +7,14 @@
 }
 
 #map {
-	width: 100%;
-    height: 100%;
+	width: 800px;
+    height: 600px;
+    margin: 10px;
 }
 
-.container1:nth-child(odd){
+.container1 { 
     width: auto;
     height: 50vh;
-    background-color: lawngreen;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1em;
@@ -24,7 +24,7 @@
 .gradientday1 {
     width: auto;
     height: 50vh;
-    background-color: #555;
+  
   
 }
 .alerts {
@@ -32,13 +32,18 @@
     font-weight: 400;
     font-style: italic;
     color: red;
-    margin-top:-320px;
+    margin-top:-720px;
     margin-left: 30px;
+
+
     
 
 }
 .sun {
-    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    margin-top: -28px;
+    margin-left: 114px;
 }
 .weathertext {
     font-family: roboto, sans-serif;
@@ -101,9 +106,9 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: bold;
-    margin-top: 45px;
+    margin-top: 5px;
     margin-left: 3px;
-    font-size: 35px;
+    font-size: 30px;
 
 }
 .dailyinfo {
@@ -119,15 +124,16 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: 35px;
-    margin-left: 30px;
+    margin-top: 65px;
+    margin-left: 20px;
     font-size: 12px;
 }
 .drop {
     width: 90px;
     height: 90px;
     margin-top: -29px;
-    margin-left: 1px;
+    margin-left: -10px;
+
 }
 .numbpercent {
     font-family: roboto, sans-serif;
@@ -137,26 +143,26 @@ h1 {
     margin-left: 65px;
     font-size: 27px;
 }
-.snow {
+.snowtype {
     font-family: roboto, sans-serif;
     font-weight: 600;
     font-style: normal;
-    margin-top: -118px;
-    margin-left: 150px;
+    margin-top: -120px;
+    margin-left: 110px;
     font-size: 12px;
 }
 .flake {
     width: 100px;
     height: 100px;
     margin-top: -28px;
-    margin-left: 114px;
+    margin-left: 70px;
 }
 .numbpercent2 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-top: -72px;
-    margin-left: 185px;
+    margin-left: 140px;
     font-size: 27px;
 }
 .hum {
@@ -164,14 +170,14 @@ h1 {
     font-weight: 600;
     font-style: normal;
     margin-top: 35px;
-    margin-left: 30px;
+    margin-left: 25px;
     font-size: 12px;
 }
 .thermometer {
     width: 90px;
     height: 90px;
     margin-top: -29px;
-    margin-left: 1px;
+    margin-left: -10px;
 }
 .numbpercent3 {
     font-family: roboto, sans-serif;
@@ -203,12 +209,23 @@ h1 {
     margin-left: 187px;
     font-size: 27px;
 }
+.date0 {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 230px;
+    margin-top: -355px;
+    font-size: 25px;
+    color: white;
+    
+    
+}
 .date1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
     margin-left: 391px;
-    margin-top: -300px;
+    margin-top: -230px;
     font-size: 25px;
     color: rgb(255, 255, 255);
     
@@ -218,24 +235,80 @@ h1 {
     grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr ;
    
 }
-.thunderstorm {
-    background: linear-gradient( 0.35turn,  #356F84, #356F84, #2C2C24);
+.background-11d {
+    background: linear-gradient( 0.35turn,  #356F84, #3E4253, #2C2C24);
+}
+.background-01d  {
+    background: linear-gradient( 0.15turn,  #5DB5D6,#DED714, #EAE103);
+}
+.background-03d {
+    background: linear-gradient( 0.35turn,   #44617B, #7A8996 );
+}
+.background-02d {
+    background: linear-gradient( 0.35turn,   #5DB5D6, #EAE103);
+}
+.background-04d {
+        background: linear-gradient( 0.15turn,      #2B6A9D,  #6395D9, #9AA5B2,  #D2E064,#E2DEB5 );
+}
+.background-09d  {
+    background: linear-gradient( 0.35turn,   #155893, #7A8996 );
+}
+.background-10d {
+    background: linear-gradient( 0.35turn,   #155893, #549AD6);
+
+}
+.background-13d  {
+    background: linear-gradient( 0.45turn,  #FDFEFF,  #4E9BDE,#155893 );
+    
+}
+.background-50d  {
+    background: linear-gradient( 0.35turn,   #485057,   #5C7183,#FDFEFF);
+    
+}
+ 
+#day0 {
+    width: 140px;
+    height: 270px;
+    margin-left: 192px;
+    margin-top: -110px;
+
 }
 
 #day1 {
     width: 140px;
     height: 270px;
-    background-color: lightcoral;
     margin-left: 350px;
-    margin-top: -120px;
+    margin-top: -116px;
 
 }
 
 .strike {
-    width: 100px;
-    height: 100px;
+    max-width: 100px;
+    max-height: 100px;
     margin-top: 87px;
     margin-left: 16px;
+}
+.sun1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 70px;
+    margin-left: -2px;
+}
+.mist1 {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+.dailytemp0 {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
 }
 .dailytemp1 {
     font-family: roboto, sans-serif;
@@ -247,17 +320,32 @@ h1 {
     color: rgb(255, 255, 255);
 
 }
+.drop0 {
+    width: 80px;
+    height: 80px;
+    margin-top: -80px;
+    margin-left: 170px;
+}
 .drop2 {
     width: 80px;
     height: 80px;
-    margin-top: -70px;
+    margin-top: -80px;
     margin-left: 325px;
+}
+.numbpercent11 {
+    font-family: roboto, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -2px;
+    margin-left: 30px;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
 }
 .numbpercent5 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 43px;
+    margin-top: 13px;
     margin-left: 27px;
     font-size: 17px;
     color: rgb(255, 255, 255);
@@ -266,31 +354,30 @@ h1 {
 #day2 {
     width: 140px;
     height: 270px;
-    background-color: rgb(252, 89, 0);
     margin-left: 509px;
-    margin-top: -127px;
+    margin-top: -119px;
 
 }
 .date2 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -219px;
+    margin-top: -227px;
     margin-left: 555px;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .cloud {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 80px;
-    margin-left: 19px;
+    margin-left: 1px;
 }
 .dailytemp2 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -14px;
+    margin-top: -33px;
     margin-left: 22px;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -300,7 +387,7 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 42px;
+    margin-top: -2px;
     margin-left: 27px;
     font-size: 17px;
     color: rgb(255, 255, 255);
@@ -314,32 +401,37 @@ h1 {
 #day3 {
     width: 140px;
     height: 270px;
-    background-color: lightseagreen;
     margin-left: 666px;
-    margin-top: -126px;
+    margin-top: -120px;
 
 }
 .date3 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -219px;
+    margin-top: -227px;
     margin-left: 710px;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .mix {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 80px;
-    margin-left: 19px;
+    margin-left: 1px;
+}
+.snow1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 85px;
+    margin-left: 1px;
 }
 .dailytemp3 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -14px;
-    margin-left: 32px;
+    margin-top: -30px;
+    margin-left: 20px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -348,7 +440,7 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 42px;
+    margin-top: -4px;
     margin-left: 27px;
     font-size: 17px;
     color: rgb(255, 255, 255);
@@ -362,32 +454,43 @@ h1 {
 #day4 {
     width: 140px;
     height: 270px;
-    background-color: rgb(49, 66, 65);
     margin-left: 820px;
-    margin-top: -128px;
+    margin-top: -120px;
 
 }
 .date4 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -219px;
+    margin-top: -225px;
     margin-left: 872px;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .cloud2 {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 80px;
-    margin-left: 19px;
+    margin-left: 1px;
+}
+.scatteredclouds1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 80px;
+    margin-left: 1px;
+}
+.brokenclouds1 {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 70px;
+    margin-left: 1px;
 }
 .dailytemp4 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -14px;
-    margin-left: 38px;
+    margin-top: -18px;
+    margin-left: 25px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -396,24 +499,23 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 42px;
-    margin-left: 27px;
+    margin-top: -6px;
+    margin-left: 26px;
     font-size: 17px;
     color: rgb(255, 255, 255);
 }
 #day5 {
     width: 140px;
     height: 270px;
-    background-color: rgb(33, 150, 142);
     margin-left: 975px;
-    margin-top: -126px;
+    margin-top: -120px;
 
 }
 .date5 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -219px;
+    margin-top: -225px;
     margin-left: 1028px;
     font-size: 25px;
     color: rgb(255, 255, 255);
@@ -425,8 +527,8 @@ h1 {
     margin-left: 795px;
 }
 .cloud3 {
-    width: 100px;
-    height: 100px;
+    max-width: 100%;
+    max-height: 100%;
     margin-top: 80px;
     margin-left: 19px;
 }
@@ -435,8 +537,8 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -14px;
-    margin-left: 38px;
+    margin-top: -15px;
+    margin-left: 25px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -445,8 +547,8 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 42px;
-    margin-left: 27px;
+    margin-top: -4px;
+    margin-left: 25px;
     font-size: 17px;
     color: rgb(255, 255, 255);
 }
@@ -459,23 +561,22 @@ h1 {
 #day6 {
     width: 140px;
     height: 270px;
-    background-color: magenta;;
     margin-left: 1130px;
-    margin-top: -126px
+    margin-top: -120px
 
 }
 .date6 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -219px;
+    margin-top: -225px;
     margin-left: 1179px;
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
 .sun2 {
-    width: 91px;
-    height: 91px;
+    width: 130px;
+    height: 130px;
     margin-top: 87px;
     margin-left: 26px;
 }
@@ -483,8 +584,8 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: -15px;
-    margin-left: 38px;
+    margin-top: -26px;
+    margin-left: 22px;
     font-size: 20px;
     color: rgb(255, 255, 255);
 
@@ -493,7 +594,7 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-top: 45px;
+    margin-top: -3px;
     margin-left: 27px;
     font-size: 17px;
     color: rgb(255, 255, 255);
@@ -653,7 +754,7 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: -45px;
+    margin-top: -46px;
     margin-left: 970px;
     font-size: 20px;
     float: left;
@@ -710,61 +811,134 @@ h1 {
     display: inline;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.fullmoon {
+
+.myfullmoon2 {
     width: 130px;
     height: 130px;
-    margin-top: -270px;
+    margin-top: -185px;
     margin-left: 690px;
     float: left;
 }
-.wanmoon1 {
+.myfullmoon {
+    width: 130px;
+    height: 130px;
+    margin-top: -170px;
+    margin-left: 685px;
+    float: left;
+    visibility: hidden;
+}
+.mywaxinggibbous2 {
+    width: 130px;
+    height: 130px;
+    margin-top: -185px;
+    margin-left: 760px;
+    float: left;
+    
+}
+.mywaxinggibbous {
     width: 130px;
     height: 130px;
     margin-top: -270px;
     margin-left: 760px;
     float: left;
+    visibility: hidden;
+    
 }
-.halfmoon1 {
+.myquarter2{
     width: 130px;
     height: 130px;
-    margin-top: -270px;
+    margin-top: -185px;
     margin-left: 815px;
     float: left;
+    
+    
 }
-.waning1 {
+.myquarter{
     width: 130px;
     height: 130px;
-    margin-top: -270px;
+    margin-top: -185px;
+    margin-left: 815px;
+    float: left;
+    visibility: hidden;
+   
+  
+}
+.mywaningcresent2 {
+    width: 130px;
+    height: 130px;
+    margin-top: -185px;
     margin-left: 855px;
     float: left;
 }
-.newmoon {
+.mywaningcresent {
     width: 130px;
     height: 130px;
-    margin-top: -270px;
+    margin-top: -185px;
+    margin-left: 855px;
+    float: left;
+    visibility: hidden;
+  
+}
+.mynewmoon {
+    width: 130px;
+    height: 130px;
+    margin-top: -185px;
     margin-left: 915px;
     float: left;
 }
-.waning2 {
+.mynewmoon1 {
     width: 130px;
     height: 130px;
-    margin-top: -268px;
+    margin-top: -185px;
+    margin-left: 915px;
+    float: left;
+    visibility: hidden;
+}
+.mywaxingcresent2 {
+    width: 130px;
+    height: 130px;
+    margin-top: -185px;
     margin-left: 978px;
     float: left;
+    visibility: hidden;
 }
-.halfmoon2 {
+.mywaxingcresent {
     width: 130px;
     height: 130px;
-    margin-top: -268px;
+    margin-top: -185px;
+    margin-left: 978px;
+    float: left;
+    
+}
+.mylastquarter2 {
+    width: 130px;
+    height: 130px;
+    margin-top: -185px;
     margin-left: 1025px;
     float: left;
 }
-.wanmoon2 {
+.mylastquarter {
     width: 130px;
     height: 130px;
-    margin-top: -272px;
+    margin-top: -185px;
+    margin-left: 1025px;
+    float: left;
+    visibility: hidden;
+}
+.mywaninggibbous2 {
+    width: 130px;
+    height: 130px;
+    margin-top: -190px;
     margin-left: 1078px;
     float: left;
+}
+.mywaninggibbous {
+    width: 130px;
+    height: 130px;
+    margin-top: -190px;
+    margin-left: 1078px;
+    float: left;
+    visibility: hidden;
 }
 .sunrisetime {
     font-family: roboto, sans-serif;
@@ -786,9 +960,9 @@ h1 {
     font-family: roboto, sans-serif;
     font-weight: 400;
     font-style: normal;
-    margin-left: 976px;
+    margin-left: 756px;
     font-size: 15px;
-    margin-top: -163px;
+    margin-top: -133px;
 }
 .weatherradar {
     font-family: roboto, sans-serif;
@@ -809,9 +983,9 @@ h1 {
     font-family: roboto-mono, monospace;
     font-weight: 400;
     font-style: normal;
-    margin-left: 850px;
+    margin-left: 812px;
     font-size: 25px;
-    margin-top: -512px;
+    margin-top: -612px;
 }
 .weatherhead {
     font-family: roboto-mono, monospace;
@@ -833,14 +1007,15 @@ h1 {
 }
 
 #meta {
-    margin-top: 495px;
+    margin-top: 590px;
+
 }
 .locationname {
     font-family: roboto, sans-serif;
     font-weight: 500;
     font-style: normal;
-    margin-top: 155px;
-    margin-left: 40px;
+    margin-top: 195px;
+    margin-left: 25px;
    
 }
 .locationcordlong {
@@ -848,7 +1023,7 @@ h1 {
     font-weight: 500;
     font-style: normal;
     margin-top: -15px;
-    margin-left: 40px;
+    margin-left: 25px;
    
 }
 .locationcordlat {
@@ -856,6 +1031,10 @@ h1 {
     font-weight: 500;
     font-style: normal;
     margin-top: -15px;
-    margin-left: 40px;
+    margin-left: 25px;
    
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
